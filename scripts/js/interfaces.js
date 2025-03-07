@@ -60,7 +60,7 @@ $(function () {
       var obj = {
         text: indentIcon + interface.name + " - " + status,
         class: gateways.has(interface.name) ? "text-bold" : null,
-        icon: master === null ? "fa fa-network-wired fa-fw" : "fa fa-fw",
+        icon: master === null ? "fa fa-network-wired fa-fw" : "",
         nodes: [],
       };
 
